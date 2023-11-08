@@ -7,21 +7,24 @@ var coursetxt;
 var courseImg;
 
 /* first dropdown list */
-var groupList = ['Compliance', 'Corporate and Investment Banking', 'Credit', 'Finance', 'Corporate Relationship', 'Digital, Fintech, AI and ML', 'ESG', 'Project Management', 'Quality and Innovation', 'Risk Management', 'Transaction Banking', 'Wealth Management', 'All Courses'];
+var groupList = ['Compliance', 'Corporate and Investment Banking', 'Credit', 'Finance', 'Corporate Relationship', 'Digital, Fintech, AI and ML', 'ESG', 'Internal Audit', 'Islamic Banking', 'Project Management', 'Quality and Innovation', 'Risk Management', 'Treasury', 'Transaction Banking', 'Wealth Management', 'All Courses'];
 
 /* second dropdown list based on the first DD selection */
-var ComplList = ['ICA', 'ACAMS'];
+var ComplList = ['ICA', 'ACAMS', 'Emirates Institute of Finance'];
 var CIBList = ['CFA Institute','ACI Financial Markets Association (ACI FMA)','CAIA Association','Corporate Finance Institute (CFI)'];
-var CredList = ['Corporate Finance Institute (CFI)'];
-var CRList = ['Corporate Finance Institute (CFI)', 'The London Institute of Banking & Finance (LIBF)'];
+var CredList = ['Corporate Finance Institute (CFI)', 'Emirates Institute of Finance'];
+var CRList = ['Corporate Finance Institute (CFI)', 'The London Institute of Banking & Finance (LIBF)', 'Emirates Institute of Finance'];
 var FinList = ['Institute of Management Accountants (IMA)'];
-var DMLList = ['Corporate Finance Institute (CFI)', 'International Chamber of Commerce (ICC) Academy'];
+var DMLList = ['Corporate Finance Institute (CFI)', 'International Chamber of Commerce (ICC) Academy', 'Emirates Institute of Finance'];
 var ESGList = ['CFA Institute', 'Corporate Finance Institute (CFI)'];
 var PMList = ['Project Management Institute (PMI)'];
-var QIList = ['The London Institute of Banking & Finance (LIBF)'];
-var RMList = ['ACFE'];
-var TBList = ['Association of Corporate Treasurers (ACT)', 'Bankers Association For Finance and Trade (BAFT)', 'International Chamber of Commerce (ICC) Academy'];
-var WMList = ['Corporate Finance Institute (CFI)'];
+var IBList = ['Emirates Institute of Finance'];
+var IAList = ['Emirates Institute of Finance'];
+var QIList = ['The London Institute of Banking & Finance (LIBF)', 'Emirates Institute of Finance'];
+var RMList = ['ACFE', 'Emirates Institute of Finance'];
+var TRList = ['Emirates Institute of Finance'];
+var TBList = ['Association of Corporate Treasurers (ACT)', 'Bankers Association For Finance and Trade (BAFT)', 'International Chamber of Commerce (ICC) Academy', 'Emirates Institute of Finance'];
+var WMList = ['Corporate Finance Institute (CFI)', 'Emirates Institute of Finance'];
 	
 var gList = $('#grpList.dropdown-menu');
 var iList = $('#InstiList.dropdown-menu');
@@ -184,6 +187,34 @@ function ddchange(){
 		});
 		LoadCourse();
 	}
+	if(gddval == 'Islamic Banking'){
+		
+		$.each(IBList, function(i)
+		{
+			var li = $('<li/>')
+				.appendTo(iList);
+			var aaa = $('<a/>')
+				.addClass('dropdown-item')
+				.attr('href', 'javascript:void(0)')
+				.text(IBList[i])
+				.appendTo(li);
+		});
+		LoadCourse();
+	}
+	if(gddval == 'Internal Audit'){
+		
+		$.each(IAList, function(i)
+		{
+			var li = $('<li/>')
+				.appendTo(iList);
+			var aaa = $('<a/>')
+				.addClass('dropdown-item')
+				.attr('href', 'javascript:void(0)')
+				.text(IAList[i])
+				.appendTo(li);
+		});
+		LoadCourse();
+	}
 	if(gddval == 'Project Management'){
 		
 		$.each(PMList, function(i)
@@ -222,6 +253,20 @@ function ddchange(){
 				.addClass('dropdown-item')
 				.attr('href', 'javascript:void(0)')
 				.text(RMList[i])
+				.appendTo(li);
+		});
+		LoadCourse();
+	}
+	if(gddval == 'Treasury'){
+		
+		$.each(TRList, function(i)
+		{
+			var li = $('<li/>')
+				.appendTo(iList);
+			var aaa = $('<a/>')
+				.addClass('dropdown-item')
+				.attr('href', 'javascript:void(0)')
+				.text(TRList[i])
 				.appendTo(li);
 		});
 		LoadCourse();
@@ -298,7 +343,7 @@ function LoadCourse(){
 	
 	if(gddval == 'Credit' && intddval == undefined){
 		$('#courseTitleTxt').html('Credit Courses');
-		dbURL = 'database/Credit_Corporate Finance Institute.json';
+		dbURL = 'database/Credit.json';
 	}
 	
 	if(gddval == 'Finance' && intddval == undefined){
@@ -316,14 +361,35 @@ function LoadCourse(){
 		dbURL = 'database/ESG.json';
 	}
 	
+	if(gddval == 'Quality and Innovation' && intddval == undefined){
+		$('#courseTitleTxt').html('Quality and Innovation Courses');
+		dbURL = 'database/QI.json';
+	}
+	
+	if(gddval == 'Internal Audit' && intddval == undefined){
+		$('#courseTitleTxt').html('Internal Audit Courses');
+		dbURL = 'database/IA_EIF.json';
+	}
+	
+	if(gddval == 'Islamic Banking' && intddval == undefined){
+		$('#courseTitleTxt').html('Islamic Banking Courses');
+		dbURL = 'database/IB_EIF.json';
+	}
+	
+	
 	if(gddval == 'Project Management' && intddval == undefined){
 		$('#courseTitleTxt').html('Project Management Courses');
 		dbURL = 'database/Project Management Institute (PMI).json';
 	}
 	
 	if(gddval == 'Risk Management' && intddval == undefined){
-		$('#courseTitleTxt').html('ACFE Courses');
-		dbURL = 'database/ACFE.json';
+		$('#courseTitleTxt').html('Risk Management Courses');
+		dbURL = 'database/Risk_Management.json';
+	}
+	
+	if(gddval == 'Treasury' && intddval == undefined){
+		$('#courseTitleTxt').html('Treasury Courses');
+		dbURL = 'database/Treasury.json';
 	}
 	
 	if(gddval == 'Transaction Banking' && intddval == undefined){
@@ -333,7 +399,11 @@ function LoadCourse(){
 	
 	if(gddval == 'Wealth Management' && intddval == undefined){
 		$('#courseTitleTxt').html('Wealth Management Courses');
-		dbURL = 'database/WM_Corporate Finance Institute.json';
+		dbURL = 'database/WM.json';
+	}
+	
+	if(gddval == 'Compliance' && intddval == 'Emirates Institute of Finance'){
+		dbURL = 'database/Compliance_EIF.json';
 	}
 	
 	if(gddval == 'Corporate and Investment Banking' && intddval == 'CFA Institute'){
@@ -345,7 +415,11 @@ function LoadCourse(){
 	}
 	
 	if(gddval == 'Credit' && intddval == 'Corporate Finance Institute (CFI)'){
-		dbURL = 'database/Credit_Corporate Finance Institute.json';
+		dbURL = 'database/Credit_CFI.json';
+	}
+	
+	if(gddval == 'Credit' && intddval == 'Emirates Institute of Finance'){
+		dbURL = 'database/Credit_EIF.json';
 	}
 	
 	if(gddval == 'Corporate Relationship' && intddval == 'Corporate Finance Institute (CFI)'){
@@ -356,33 +430,72 @@ function LoadCourse(){
 		dbURL = 'database/CorpRel_The London Institute of Banking & Finance (LIBF).json';
 	}
 	
+	if(gddval == 'Corporate Relationship' && intddval == 'Emirates Institute of Finance'){
+		dbURL = 'database/CorpRel_EIF.json';
+	}
+	
 	if(gddval == 'Digital, Fintech, AI and ML' && intddval == 'Corporate Finance Institute (CFI)'){
-		dbURL = 'database/Dig_Corporate Finance Institute.json';
+		dbURL = 'database/Dig_CFI.json';
 	}
 	
 	if(gddval == 'Digital, Fintech, AI and ML' && intddval == 'International Chamber of Commerce (ICC) Academy'){
-		dbURL = 'database/Dig_International Chamber of Commerce (ICC) Academy.json';
+		dbURL = 'database/Dig_ICC.json';
+	}
+	
+	if(gddval == 'Digital, Fintech, AI and ML' && intddval == 'Emirates Institute of Finance'){
+		dbURL = 'database/Dig_EIF.json';
 	}
 	
 	if(gddval == 'ESG' && intddval == 'Corporate Finance Institute (CFI)'){
-		dbURL = 'database/ESG_Corporate Finance Institute.json';
+		dbURL = 'database/ESG_CFI.json';
 	}
 	
 	if(gddval == 'ESG' && intddval == 'CFA Institute'){
 		dbURL = 'database/ESG_CFA_Institute.json';
+	}	
+	
+	if(gddval == 'Internal Audit' && intddval == 'Emirates Institute of Finance'){
+		dbURL = 'database/IA_EIF.json';
 	}
 	
-	if((gddval == 'Quality and Innovation' && intddval == 'The London Institute of Banking & Finance (LIBF)') || (gddval == 'Quality and Innovation' && intddval == undefined) || (gddval == undefined && intddval == 'The London Institute of Banking & Finance (LIBF)') ) {
-		$('#courseTitleTxt').html('Quality and Innovation Courses');
-		dbURL = 'database/QI_The London Institute of Banking & Finance (LIBF).json';
+	if(gddval == 'Islamic Banking' && intddval == 'Emirates Institute of Finance'){
+		dbURL = 'database/IB_EIF.json';
+	}
+	
+	if(gddval == 'Quality and Innovation' && intddval == 'The London Institute of Banking & Finance (LIBF)') {
+		dbURL = 'database/QI_LIBF.json';
+	}
+	
+	if(gddval == 'Quality and Innovation' && intddval == 'Emirates Institute of Finance') {
+		dbURL = 'database/QI_EIF.json';
+	}
+	
+	if(gddval == 'Risk Management' && intddval == 'ACFE') {
+		dbURL = 'database/Risk_ACFE.json';
+	}
+	
+	if(gddval == 'Risk Management' && intddval == 'Emirates Institute of Finance') {
+		dbURL = 'database/Risk_EIF.json';
+	}
+	
+	if(gddval == 'Treasury' && intddval == 'Emirates Institute of Finance'){
+		dbURL = 'database/Treasury.json';
 	}
 	
 	if(gddval == 'Transaction Banking' && intddval == 'International Chamber of Commerce (ICC) Academy'){
 		dbURL = 'database/TB_International Chamber of Commerce (ICC) Academy.json';
 	}
 	
+	if(gddval == 'Transaction Banking' && intddval == 'Emirates Institute of Finance'){
+		dbURL = 'database/TB_EIF.json';
+	}
+	
 	if(gddval == 'Wealth Management' && intddval == 'Corporate Finance Institute (CFI)'){
 		dbURL = 'database/WM_Corporate Finance Institute.json';
+	}
+	
+	if(gddval == 'Wealth Management' && intddval == 'Emirates Institute of Finance'){
+		dbURL = 'database/WM_EIF.json';
 	}
 	
 	console.log(dbURL);
