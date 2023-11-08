@@ -17,110 +17,162 @@
   },
   {
     "number": "005",
-    "title": "Chartered Financial Analyst"
+    "title": "EIF International Certificate In Compliance (EICC)"
   },
   {
     "number": "006",
-    "title": "ACI Dealing Certificate Training - New Version"
+    "title": "Chartered Financial Analyst"
   },
   {
     "number": "007",
-    "title": "Chartered Alternative Investment Analyst (CAIA)"
+    "title": "ACI Dealing Certificate Training - New Version"
   },
   {
     "number": "008",
-    "title": "Capital Markets and Securities Analyst (CMSA)"
+    "title": "Chartered Alternative Investment Analyst (CAIA)"
   },
   {
     "number": "009",
-    "title": "Commercial Banking and Credit Analyst (CBCA)"
+    "title": "Capital Markets and Securities Analyst (CMSA)"
   },
   {
     "number": "010",
-    "title": "Certified Management Accountant (CMA)"
+    "title": "Commercial Banking and Credit Analyst (CBCA)"
   },
   {
     "number": "011",
-    "title": "Portfolio Management Fundamentals"
+    "title": "EIF International Certificate In Credit (EICC)"
   },
   {
     "number": "012",
-    "title": "Behavioral Finance"
+    "title": "Certified Management Accountant (CMA)"
   },
   {
     "number": "013",
-    "title": "Certificate in Relationship Management (CertRM)"
+    "title": "Portfolio Management Fundamentals"
   },
   {
     "number": "014",
-    "title": "Introduction to Cryptocurrency"
+    "title": "Behavioral Finance"
   },
   {
     "number": "015",
-    "title": "Python Fundamentals"
+    "title": "Certificate in Relationship Management (CertRM)"
   },
   {
     "number": "016",
-    "title": "Data Science and Machine Learning Fundamentals"
+    "title": "EIF International Certificate In Corporate Relationship Management (EICCRM)"
   },
   {
     "number": "017",
-    "title": "Digital Trade Finance and Fintech"
+    "title": "Introduction to Cryptocurrency"
   },
   {
     "number": "018",
-    "title": "Certificate in ESG Investing"
+    "title": "Python Fundamentals"
   },
   {
     "number": "019",
-    "title": "ESG Fundamentals"
+    "title": "Data Science and Machine Learning Fundamentals"
   },
   {
     "number": "020",
-    "title": "ESG for Commercial Lenders"
+    "title": "Digital Trade Finance and Fintech"
   },
   {
-    "number": "021",
-    "title": "Project Management Certification (PMP)"
+	"number": "021",
+    "title": "EIF International Certificate In Fintech (EICF)"
   },
   {
-    "number": "022",
-    "title": "Strategic Management in Innovation and Banking"
+	"number": "022",
+    "title": "EIF International Certificate In Data Analytics (EICDA)"
   },
   {
     "number": "023",
-    "title": "Certified Fraud Examiner (CFE)"
+    "title": "Certificate in ESG Investing"
   },
   {
     "number": "024",
-    "title": "Award in International Cash Management (AwardICM)"
+    "title": "ESG Fundamentals"
   },
   {
     "number": "025",
-    "title": "Certificate in International Cash Management (CertICM)"
+    "title": "ESG for Commercial Lenders"
   },
   {
     "number": "026",
-    "title": "Certificate in Principles of Payments (CertPAY)"
+    "title": "Project Management Certification (PMP)"
   },
   {
     "number": "027",
-    "title": "Certificate in International Trade and Finance (CITF)"
-  },  
+    "title": "EIF International Certificate In Islamic Retail Banking (EICIRB)"
+  },
   {
     "number": "028",
-    "title": "Global Trade Certificate (GTC)"
+    "title": "EIF International Certificate In Internal Audit (EICIA)"
   },
   {
     "number": "029",
-    "title": "Incoterms® 2020 Certificate (INCO)"
+    "title": "Strategic Management in Innovation and Banking"
   },
   {
     "number": "030",
-    "title": "Certificate in Introductory Transaction Banking (CITB)"
+    "title": "EIF International Certificate In Quality And Innovation (EICQI)"
   },
   {
     "number": "031",
+    "title": "Certified Fraud Examiner (CFE)"
+  },
+  {
+    "number": "032",
+    "title": "EIF International Certificate In Fraud Management (EICFM)"
+  },
+  {
+	"number": "033",
+    "title": "EIF International Certificate In Risk Management (EICRM)"
+  },
+  {
+	"number": "034",
+    "title": "EIF International Certificate In Treasury Management (EICTM)"
+  },
+  {
+    "number": "035",
+    "title": "Award in International Cash Management (AwardICM)"
+  },
+  {
+    "number": "036",
+    "title": "Certificate in International Cash Management (CertICM)"
+  },
+  {
+    "number": "037",
+    "title": "EIF International Certificate In Trade Finance (EICTF)"
+  },
+  {
+    "number": "038",
+    "title": "Certificate in Principles of Payments (CertPAY)"
+  },
+  {
+    "number": "039",
+    "title": "Certificate in International Trade and Finance (CITF)"
+  },  
+  {
+    "number": "040",
+    "title": "Global Trade Certificate (GTC)"
+  },
+  {
+    "number": "041",
+    "title": "Incoterms® 2020 Certificate (INCO)"
+  },
+  {
+    "number": "042",
+    "title": "Certificate in Introductory Transaction Banking (CITB)"
+  },
+  {
+    "number": "043",
     "title": "Financial Planning and Wealth Management (FPWM)"
+  },
+  {
+    "number": "044",
+    "title": "EIF International Certificate In Wealth Management (EICWM)"
   }
 ]

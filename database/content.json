@@ -85,7 +85,7 @@
 	"coursemode": "Online",
 	"duration": "6 to 12 months",
 	"audience": "Credit, CCB",
-	"contTxt": "<ul><li>DerivativesFinancial Analysis</li><li>Credit Structure and Documentation</li><li>Management & Business Analysis</li><li>Risk Management</li><li>Industry Analysis</li></ul>",
+	"contTxt": "<ul><li>Derivatives Financial Analysis</li><li>Credit Structure and Documentation</li><li>Management & Business Analysis</li><li>Risk Management</li><li>Industry Analysis</li></ul>",
 	"details": "https://corporatefinanceinstitute.com/certifications/commercial-banking-credit-analyst-certification-cbca/",
 	"apply": ""
   },
@@ -306,6 +306,136 @@
 	"duration": "6 to 12 months",
 	"audience": "GPB, Elite Banking",
 	"contTxt": "<ul><li>Financial Analysis</li><li>Practice Management</li><li>Business Development</li><li>Relationship Management</li><li>Investment Management</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "032",
+	"courseName": "EIF International Certificate In Fintech EICF",
+	"coursemode": "Online + Virtual",
+	"duration": "9 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Fintech 101</li><li>Cybersecurity Essentials for All</li><li>Open Banking and AP</li><li>Blockchain 101</li><li>Artificial Intelligence & Machine Learning 101</li><li>Cloud Applications 101</li><li>Robotic Process Automation (RPA</li><li>Payment Tech</li><li>Internet of Things (IoT) Applications in Financial Sector</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "033",
+	"courseName": "EIF International Certificate In Risk Management EICRM",
+	"coursemode": "Online + Virtual",
+	"duration": "16 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Risk Management in Banks</li><li>Fraud Prevention and Detection Masterclass</li><li>Operational Risk Management</li><li>Business Continuity Planning</li><li>Key Risk Indicators in Risk Management</li><li>Credit Risk Management</li><li>Risk Adjusted Return on Capital</li><li>IFRS - 9 for Credit Professionals</li><li>Liquidity Risk Management</li><li>Market Risk Management</li><li>Stress Testing Masterclass</li><li>Enterprise Risk Management</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "034",
+	"courseName": "EIF International Certificate In Corporate Relationship Management EICCRM",
+	"coursemode": "Online + Virtual",
+	"duration": "10 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Identifying Business Opportunities from Financial Statements</li><li>Understanding Income Statement, Balance Sheet Class and Financial Ratios</li><li>Trade Finance Primer</li><li>Treasury Solutions for Relationship Managers</li><li>Cash Management and Transaction Banking</li><li>Art of Cross Selling</li><li>Negotiation Skills</li><li>Fraud & AML Red Flags for Relationship Managers</li><li>Risk Adjusted Return on Capital – RAROC</li><li>Supply Chain Finance</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "035",
+	"courseName": "EIF International Certificate In Data Analytics EICDA",
+	"coursemode": "Online + Virtual",
+	"duration": "9 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Data Consolidation & Analysis using Excel</li><li>Dashboard using Excel</li><li>Data Visualization using Power BI</li><li>Dashboard using Tableau Public</li><li>Statistical Analysis using Excel</li><li>Analytics using Python</li><li>Introduction to Fraud Analytics</li><li>Introduction to Sales Analytics</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "036",
+	"courseName": "EIF International Certificate In Compliance EICC",
+	"coursemode": "Online + Virtual",
+	"duration": "11 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>KYC & CDD Compliance</li><li>AML & CFT Laws and Regulations</li><li>European Union Directives</li><li>Role of FATF and FSRB</li><li>Financial Intelligence Units (FIU)</li><li>Ultimate Beneficial Ownership (UBO)</li><li>Sanctions Monitoring</li><li>Transactions Monitoring</li><li>Trade Based Financial Crime Compliance</li><li>FATCA Rules and Regulations</li><li>Common Reporting Standards</li><li>GDPR Essentials</li><li>REGTECH</li><li>Effective Compliance Management Masterclass</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "037",
+	"courseName": "EIF International Certificate In Fraud Management EICFM",
+	"coursemode": "Online + Virtual",
+	"duration": "7 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Introduction to Financial Crimes</li><li>Cybersecurity Essentials for All</li><li>Phishing</li><li>Swim Swap</li><li>Malware and Ransomware</li><li>Internal Fraud</li><li>How Strong is my Password</li><li>Cheque Fraud Prevention</li><li>Identity Crime</li><li>Credit Card Fraud Prevention</li><li>Document Screening and Signature Verification</li><li>Fraud Prevention and Detection Master Class</li><li>Fraud Investigation</li><li>Introduction to Fraud Analytics</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "038",
+	"courseName": "EIF International Certificate In Treasury Management EICTM",
+	"coursemode": "Online + Virtual",
+	"duration": "9 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Treasury Insights for Non-Treasury</li><li>Treasury Operations</li><li>Asset & Liabilities Management Primer</li><li>FX Primer</li><li>DCM & Fixed Income</li><li>Money Markets</li><li>Derivatives</li><li>Technical Analysis</li><li>Treasury & Portfolio Bourse Game</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "039",
+	"courseName": "EIF International Certificate In Trade Finance EICTF",
+	"coursemode": "Online + Virtual",
+	"duration": "13 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Trade Finance Primer</li><li>Bank Guarantees</li><li>INCO Terms</li><li>Trade Finance Masterclass</li><li>Trade Finance Documents Examination (ISBP) Masterclass</li><li>Supply Chain Finance</li><li>Trade Based Financial Crimes</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "040",
+	"courseName": "EIF International Certificate In Quality And Innovation EICQI",
+	"coursemode": "Online + Virtual",
+	"duration": "10 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>CBUAE Consumer Protection standards awareness</li><li>Customer Journey Mapping</li><li>RCA and Complaint Management</li><li>Basics of Process Management</li><li>Business Process Re-engineering</li><li>Lean Six Sigma</li><li>Agile 101</li><li>Design Thinking Essentials</li><li>Creative Thinking and Problem Solving</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "041",
+	"courseName": "EIF International Certificate In Islamic Retail Banking EICIRB",
+	"coursemode": "Online + Virtual",
+	"duration": "5 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Introduction to Islamic Banking</li><li>Islamic Liability Products</li><li>Islamic Asset Products</li><li>Card Products in Islamic Banks</li><li>AAOIFI Shari’ah Standard on Murabaha</li><li>AAOIFI Shari’ah Standard on Ijarah</li><li>Islamic Retail Banking Products – Checklist for Shari'ah Compliance</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "042",
+	"courseName": "EIF International Certificate In Wealth Management EICWM",
+	"coursemode": "Online + Virtual",
+	"duration": "9 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Investment Asset Classes & Vehicles</li><li>Industry Regulation</li><li>Understanding Income Statement, Balance Sheet and Financial Ratios</li><li>Financial Planning</li><li>Portfolio Creation & Asset Allocation Strategies</li><li>Equity Research Masterclass</li><li>ESG Investing</li><li>Technical Analysis</li><li>Behavioral Finance</li><li>Treasury & Portfolio Management Bourse Game</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "043",
+	"courseName": "EIF International Certificate In Internal Audit EICIA",
+	"coursemode": "Online + Virtual",
+	"duration": "10 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Internal Audit</li><li>Credit Audit</li><li>Treasury Audit</li><li>Sales Audit</li><li>AML Audit</li><li>IT Security Risk and Audit</li><li>Fraud Investigations</li><li>Effective Compliance Management Masterclass</li></ul>",
+	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
+	"apply": ""
+  },
+  {
+	"number": "044",
+	"courseName": "EIF International Certificate In Credit EICC",
+	"coursemode": "Online + Virtual",
+	"duration": "9 days",
+	"audience": "Open for all",
+	"contTxt": "<ul><li>Financial Statement Analysis Primer</li><li>Cash Flow Statement Analysis</li><li>Identifying Red Flags using Financial Statement</li><li>Early Warning Indicators for Problem Loans</li><li>Credit Analysis using Bank Statement</li><li>Credit Appraisal Methods</li><li>Credit Documentation</li><li>Credit Risk Management</li><li>IFRS-9 for Credit Professionals</li></ul>",
 	"details": "https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/",
 	"apply": ""
   }
