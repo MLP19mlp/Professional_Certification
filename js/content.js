@@ -20,7 +20,6 @@ function gotoContent(){
 		  for (var i = 0; i < data.length; i++) {
 			if (data[i].courseName.search(new RegExp(searchText, "i")) != -1) {	
 			console.log(data[i].courseName)
-
 			  $("#crsmode").html(data[i].coursemode);
 			  $("#crsduration").html(data[i].duration);
 			  $("#crscost").html(data[i].audience);
@@ -29,8 +28,13 @@ function gotoContent(){
 			  $("#btndetails").attr('href', detailsclk);
 			  var applycrse = data[i].apply;
 			  $("#btnapply").attr('href', applycrse);
+			  
 			}
 		  }
 		}
+		
  	});
+	$("#backBtn").on('click', function(){
+	  LoadCourse(catList)
+  });
 }
