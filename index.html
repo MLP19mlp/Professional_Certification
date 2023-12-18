@@ -18,6 +18,9 @@
 </head>
 
 <body>
+<div class="sticky-button-container">
+  <div id="homeBtn"><img src="assets/home.png" width="25" height="23" alt="Home"></div>
+</div>
 <div class="container-fluid mt-3 mb-4">
   <nav id="banner_bg">
     <div class="logo"><img src="assets/Logo-8.png" class="img-fluid" title="FAB"></div>
@@ -26,41 +29,22 @@
       <h6 align="center">next line texts</h6>
     </div>
   </nav>
-  <div id="dd_area" class="container-fluid pt-4 d-flex justify-content-center flex-wrap text-center">
-    <div id="group_dd">
-      <div class="dropdown">
-        <button id="gdd_btn" class="btn dropdown-toggle text-start px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">Category</button>
-        <ul id="grpList" class="dropdown-menu">
-          
-        </ul>
-      </div>
-    </div>
-    <div id="inst_dd">
-      <div class="dropdown">
-        <button id="idd_btn" class="btn dropdown-toggle text-start px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">Certification Institute</button>
-        <ul id="InstiList" class="dropdown-menu">
-          
-        </ul>
-      </div>
-    </div>
-    <!--<div id="submit_btn">
-      <button id="sbt_btn" class="btn px-3" type="button">GO</button>
-    </div>-->
-  </div>
 </div>
+
 <div id="courseTitleTxt"><span>Certification Course</span></div>
 <div id="contentGrid" class="container mt-4 mb-4">
   <div id="CourseArea">
-    <div class="row row-cols-1 row-cols-md-3 g-4 text-center" id="CourseAreaRow">
+    <div class="row row-cols-1 row-cols-md-4 g-4 text-center" id="CourseAreaRow">
     </div>
   </div>
 </div>
+
 <div id="courseGrid" class="container mt-2 mb-2">
     <div id="courseDetails">
         <ul id="crsdtls" class="row align-items-center justify-content-center col-12">
-        <li><div class="float-start d-flex align-items-center justify-content-center"><img src="assets/coursemode_icn.png" class="img-fluid" title="Course Mode"></div><div class="float-start text-center pt-1 cust_width"><strong>Course Mode: </strong><br><span id="crsmode"></span></div></li>
-        <li><div class="float-start flex-wrap"><img src="assets/courseduration_icn.png" class="img-fluid" title="Course Duration"></div><div class="float-start  text-center pt-1 cust_width"><strong>Duration: </strong><br><span id="crsduration"></span></div></li>
-        <li><div class="float-start flex-wrap"><img src="assets/group_icn.png" class="img-fluid" title="Course Mode"></div><div class="float-start text-center pt-1 cust_width"><strong>Target Audience: </strong><br><span id="crscost"></span></div></li>
+        <li><img src="assets/coursemode_icn.png" class="img-fluid float-start d-flex align-items-center justify-content-center" title="Course Mode"><div class="cust_width"><strong>Course Mode: </strong><br><span id="crsmode"></span></div></li>
+        <li><img src="assets/courseduration_icn.png" class="img-fluid float-start d-flex align-items-center justify-content-center" title="Course Duration"><div class="cust_width"><strong>Duration: </strong><br><span id="crsduration"></span></div></li>
+        <li><img src="assets/group_icn.png" class="img-fluid float-start d-flex align-items-center justify-content-center" title="Course Mode"><div class="cust_width"><strong>Target Audience: </strong><br><span id="crscost"></span></div></li>
         </ul>
     </div>  
     <div class="container">
@@ -70,16 +54,15 @@
         <p class="txtbold">Course details</p>
         <div class="text-black">Course details in this area</div>
     </div>
-        <!--<div class="col-12 col-lg-4 text-center mb-2"><img src="assets/content_imgs/img1.png" class="img-fluid" title="Course Mode"></div>
-        <div class="col-12 col-lg-8 crsdescp"><p>Course details in this area</p></div>-->
+        
     </div> 
     </div>
-    <div id="coursedownloads" class="container-fluid row justify-content-center text-center">
-        <div class="col-12"><a id="btndetails" href="" target="_blank"><div type="button" class="bttn btnblu">More Details</div></a><!--<a id="btnapply" href="" target="_blank">--><div type="button" class="bttn btnred disabled_class">Apply</div><!--</a>--></div>
+    <div id="coursedownloads" class="container-fluid justify-content-center text-center">
+        <div class="col-12"><a id="backBtn" target="_blank"><div type="button" class="bttn btngrey">Back</div></a><a id="btndetails" href="" target="_blank"><div type="button" class="bttn btnblu">More Details</div></a><!--<a id="btnapply" href="" target="_blank">--><div type="button" class="bttn btnred disabled_class">Apply</div><!--</a>--></div>
     </div>
 
 </div>
 <script src="js/functionality.js"></script>
-<script src="js/content.js"></script>
+
 </body>
 </html>
