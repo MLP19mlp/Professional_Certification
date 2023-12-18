@@ -168,7 +168,7 @@ body {
 	cursor: pointer;
 }
 .card img {
-	border-radius: 30px;
+	border-radius: 15px;
 	box-shadow: 5px 15px 20px -10px #666;
 }
 .card:hover {
@@ -190,8 +190,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 .overlay_1 {
 	left: 0;
@@ -221,13 +221,15 @@ body {
 	width:300px;
 	border-radius:20px;
 	padding:5px;
-	margin:15px;
+	margin:10px;
 	color:#50b0ff;
 	box-shadow: 5px 15px 20px -10px #afbeda;
 }
 
 #crsdtls .cust_width{
-	width:70%;
+	width:100%;
+	text-align:center;
+	vertical-align:middle;
 }
 
 #coursedesc{
@@ -257,13 +259,20 @@ body {
 	border-radius:30px;
 	width:auto;
 	padding:0px 30px;
-	height:40px;
-	line-height:40px;
-	margin:15px;
+	height:35px;
+	line-height:35px;
+	margin:5px 12px;
 	color:#fff;
 	display:inline-block;
 	font-weight:bold;
-	box-shadow: 5px 15px 20px -10px #afbeda;
+}
+
+#coursedownloads .bttn:hover{
+	box-shadow: 2px 10px 15px -8px #666;
+}
+
+.btngrey{
+	background-color:#666;
 }
 
 .btnblu{
@@ -276,4 +285,31 @@ body {
 
 .txtbold{
 	font-weight:bold;
+}
+
+.sticky-button-container {
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 470px; /* adjust distance from bottom */
+  right: 4px; /* adjust distance from right edge */
+  width: fit-content; /* adjusts to button width */
+  z-index:10;
+}
+
+#homeBtn {
+  justify-self: end;
+  background-color:#06F;
+  padding:5px;
+  border-radius:8px 0px 0px 8px;
+  cursor:pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .sticky-button-container {
+    bottom: 5px; /* adjust distance for mobile */
+    right: 4px; /* adjust distance for mobile */
+	top: 280px; /* adjust distance from bottom */
+  }
 }
