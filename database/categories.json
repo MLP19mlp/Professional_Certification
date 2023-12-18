@@ -1,0 +1,77 @@
+[
+  {
+    "number": "001",
+    "title": "Compliance",
+	"thumb": "Certified Global Sanctions Specialist Certification (CGSS)"
+  },
+  {
+    "number": "002",
+    "title": "Corporate and Investment Banking",
+	"thumb": "Capital Markets and Securities Analyst (CMSA)"
+  },
+  {
+    "number": "003",
+    "title": "Credit",
+	"thumb": "Commercial Banking and Credit Analyst (CBCA)"
+  },
+  {
+    "number": "004",
+    "title": "Finance",
+	"thumb": "Certified Management Accountant (CMA)"
+  },
+  {
+    "number": "005",
+    "title": "Corporate Relationship",
+	"thumb": "Portfolio Management Fundamentals"
+  },
+  {
+    "number": "006",
+    "title": "Digital, Fintech, AI and ML",
+	"thumb": "Python Fundamentals"
+  },
+  {
+    "number": "007",
+    "title": "ESG",
+	"thumb": "Certificate in ESG Investing"
+  },
+  {
+    "number": "008",
+    "title": "Internal Audit",
+	"thumb": "EIF International Certificate In Internal Audit (EICIA)"
+  },
+  {
+    "number": "009",
+    "title": "Islamic Banking",
+	"thumb": "EIF International Certificate In Islamic Retail Banking (EICIRB)"
+  },
+  {
+    "number": "010",
+    "title": "Project Management",
+	"thumb": "Project Management Certification (PMP)"
+  },
+  {
+    "number": "011",
+    "title": "Quality and Innovation",
+	"thumb": "Strategic Management in Innovation and Banking"
+  },
+  {
+    "number": "012",
+    "title": "Risk Management",
+	"thumb": "EIF International Certificate In Risk Management (EICRM)"
+  },
+  {
+    "number": "013",
+    "title": "Treasury",
+	"thumb": "EIF International Certificate In Treasury Management (EICTM)"
+  },
+  {
+    "number": "014",
+    "title": "Transaction Banking",
+	"thumb": "Certificate in Introductory Transaction Banking (CITB)"
+  },
+  {
+    "number": "015",
+    "title": "Wealth Management",
+	"thumb": "Financial Planning and Wealth Management (FPWM)"
+  }
+]
